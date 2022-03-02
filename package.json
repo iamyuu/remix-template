@@ -20,8 +20,14 @@
 		"#": "--------------------------------------------------"
 	},
 	"dependencies": {
+		"@chakra-ui/react": "1.8.6",
+		"@emotion/cache": "11.7.1",
+		"@emotion/react": "11.8.1",
+		"@emotion/server": "11.4.0",
+		"@emotion/styled": "11.8.1",
 		"@remix-run/cloudflare-pages": "1.2.3",
 		"@remix-run/react": "1.2.3",
+		"framer-motion": "6.2.8",
 		"react": "17.0.2",
 		"react-dom": "17.0.2",
 		"remix": "1.2.3"

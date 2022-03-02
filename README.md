@@ -1,7 +1,7 @@
 # 📀 Remix template
 
 ```sh
-npx degit iamyuu/remix-template
+npx degit iamyuu/remix-template#chakra
 ```
 
 ## Available Scripts
