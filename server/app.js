@@ -7,6 +7,9 @@ const handleRequest = createPagesFunctionHandler({
 	getLoadContext: context => context.env,
 });
 
+/**
+ * @param {import('@cloudflare/workers-types').EventContext} context
+ */
 export function onRequest(context) {
 	return handleRequest(context);
 }

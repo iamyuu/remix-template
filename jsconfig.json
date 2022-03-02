@@ -1,9 +1,11 @@
 {
-  "compilerOptions": {
-    "jsx": "react-jsx",
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["./app/*"]
-    }
-  }
+	"compilerOptions": {
+		"types": ["@remix-run/dev", "@remix-run/cloudflare-pages/globals", "@cloudflare/workers-types"],
+		"checkJs": true,
+		"jsx": "react-jsx",
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["./app/*"]
+		}
+	}
 }
