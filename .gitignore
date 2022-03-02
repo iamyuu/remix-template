@@ -55,3 +55,4 @@ node_modules
 .cache
 functions/\[\[path\]\].js
 public/build
+api/index.js

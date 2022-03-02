@@ -2,9 +2,9 @@
  * @type {import('@remix-run/dev').AppConfig}
  */
 module.exports = {
-	serverBuildTarget: "cloudflare-pages",
-	server: "./server/app.js",
-	devServerBroadcastDelay: 1000,
+	serverBuildTarget: "vercel",
+	server: process.env.NODE_ENV === "development" ? undefined : "./server/app.js",
+	// devServerBroadcastDelay: 1000,
 	ignoredRouteFiles: [".*"],
 	// appDirectory: "app",
 	// assetsBuildDirectory: "public/build",
